@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/lambda_test.dir/lambda_test.cpp.o  -o ../../bin/lambda_test -rdynamic 

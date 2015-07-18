@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/object_construction.dir/object_construction.cpp.o  -o ../../bin/object_construction -rdynamic 

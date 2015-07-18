@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/decltype.dir/decltype.cpp.o  -o ../../bin/decltype -rdynamic 

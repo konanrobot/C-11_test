@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/exbot/Documents/myC++11_Test/src/unordered_set_map.cpp
+iostream
+-
+string
+-
+vector
+-
+unordered_set
+-
+unordered_map
+-
+

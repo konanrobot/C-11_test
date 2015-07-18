@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/exbot/Documents/myC++11_Test/src/cpp11FeaturesTest.cpp
+iostream
+-
+memory
+-
+vector
+-
+map
+-
+algorithm
+-
+iterator
+-
+

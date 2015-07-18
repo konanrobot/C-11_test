@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/exbot/Documents/myC++11_Test/src/tuple_test.cpp
+iostream
+-
+string.h
+-
+vector
+-
+tuple
+-
+assert.h
+-
+utility
+-
+thread
+-
+chrono
+-
+functional
+-
+atomic
+-
+

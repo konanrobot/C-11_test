@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/right_value_ref.dir/right_value_ref.cpp.o  -o ../../bin/right_value_ref -rdynamic 

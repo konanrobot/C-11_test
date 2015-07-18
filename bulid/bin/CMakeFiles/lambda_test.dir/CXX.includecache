@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/exbot/Documents/myC++11_Test/src/lambda_test.cpp
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+functional
+-
+assert.h
+-
+

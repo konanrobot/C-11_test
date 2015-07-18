@@ -1,0 +1,15 @@
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/Features.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/decltype.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/delete_default.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/enum_union.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/init_list.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/lambda_test.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/object_construction.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/overrides_final.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/regex_test.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/right_value_ref.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/thread.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/tuple_test.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/unordered_set_map.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/using_and_so_on.dir
+/home/exbot/Documents/myC++11_Test/bulid/bin/CMakeFiles/variadic_templates.dir

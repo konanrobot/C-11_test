@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/thread.dir/thread_c++11.cpp.o  -o ../../bin/thread -rdynamic 

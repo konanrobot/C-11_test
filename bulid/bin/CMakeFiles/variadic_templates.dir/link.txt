@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/variadic_templates.dir/variadic_templates.cpp.o  -o ../../bin/variadic_templates -rdynamic 

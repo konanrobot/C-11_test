@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/using_and_so_on.dir/using_and_so_on.cpp.o  -o ../../bin/using_and_so_on -rdynamic 

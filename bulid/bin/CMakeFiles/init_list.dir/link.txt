@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/init_list.dir/init_list.cpp.o  -o ../../bin/init_list -rdynamic 

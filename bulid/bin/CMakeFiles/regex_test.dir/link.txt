@@ -1,0 +1,1 @@
+g++   -Wl,--no-as-needed -std=c++11 -pthread -g    CMakeFiles/regex_test.dir/regex_test.cpp.o  -o ../../bin/regex_test -rdynamic 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/exbot/Documents/myC++11_Test/src/thread_c++11.cpp
+iostream
+-
+string
+-
+vector
+-
+queue
+-
+iterator
+-
+algorithm
+-
+stdarg.h
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+future
+-
+chrono
+-
+
