@@ -38,6 +38,11 @@ ADD_EXECUTABLE(delete_default delete_default.cpp)
 ADD_EXECUTABLE(object_construction object_construction.cpp)
 ADD_EXECUTABLE(overrides_final overrides_final.cpp)
 ADD_EXECUTABLE(unordered_set_map unordered_set_map.cpp)
+#以下未能成功
+#ADD_EXECUTABLE(std_time std_time.cpp)
+ADD_EXECUTABLE(mapSort mapSort.cpp)
+ADD_EXECUTABLE(PrintArgs PrintArgs.cpp)
+ADD_EXECUTABLE(Observer Observer.cpp)
 
 
 

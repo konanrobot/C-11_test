@@ -110,6 +110,34 @@ Features/fast:
 .PHONY : Features/fast
 
 # Convenience name for target.
+bin/CMakeFiles/Observer.dir/rule:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/Observer.dir/rule
+.PHONY : bin/CMakeFiles/Observer.dir/rule
+
+# Convenience name for target.
+Observer: bin/CMakeFiles/Observer.dir/rule
+.PHONY : Observer
+
+# fast build rule for target.
+Observer/fast:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/Observer.dir/build.make bin/CMakeFiles/Observer.dir/build
+.PHONY : Observer/fast
+
+# Convenience name for target.
+bin/CMakeFiles/PrintArgs.dir/rule:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/PrintArgs.dir/rule
+.PHONY : bin/CMakeFiles/PrintArgs.dir/rule
+
+# Convenience name for target.
+PrintArgs: bin/CMakeFiles/PrintArgs.dir/rule
+.PHONY : PrintArgs
+
+# fast build rule for target.
+PrintArgs/fast:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/PrintArgs.dir/build.make bin/CMakeFiles/PrintArgs.dir/build
+.PHONY : PrintArgs/fast
+
+# Convenience name for target.
 bin/CMakeFiles/decltype.dir/rule:
 	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/decltype.dir/rule
 .PHONY : bin/CMakeFiles/decltype.dir/rule
@@ -178,6 +206,20 @@ lambda_test: bin/CMakeFiles/lambda_test.dir/rule
 lambda_test/fast:
 	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/lambda_test.dir/build.make bin/CMakeFiles/lambda_test.dir/build
 .PHONY : lambda_test/fast
+
+# Convenience name for target.
+bin/CMakeFiles/mapSort.dir/rule:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/mapSort.dir/rule
+.PHONY : bin/CMakeFiles/mapSort.dir/rule
+
+# Convenience name for target.
+mapSort: bin/CMakeFiles/mapSort.dir/rule
+.PHONY : mapSort
+
+# fast build rule for target.
+mapSort/fast:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/mapSort.dir/build.make bin/CMakeFiles/mapSort.dir/build
+.PHONY : mapSort/fast
 
 # Convenience name for target.
 bin/CMakeFiles/object_construction.dir/rule:
@@ -304,6 +346,54 @@ variadic_templates: bin/CMakeFiles/variadic_templates.dir/rule
 variadic_templates/fast:
 	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/variadic_templates.dir/build.make bin/CMakeFiles/variadic_templates.dir/build
 .PHONY : variadic_templates/fast
+
+Observer.o: Observer.cpp.o
+.PHONY : Observer.o
+
+# target to build an object file
+Observer.cpp.o:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/Observer.dir/build.make bin/CMakeFiles/Observer.dir/Observer.cpp.o
+.PHONY : Observer.cpp.o
+
+Observer.i: Observer.cpp.i
+.PHONY : Observer.i
+
+# target to preprocess a source file
+Observer.cpp.i:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/Observer.dir/build.make bin/CMakeFiles/Observer.dir/Observer.cpp.i
+.PHONY : Observer.cpp.i
+
+Observer.s: Observer.cpp.s
+.PHONY : Observer.s
+
+# target to generate assembly for a file
+Observer.cpp.s:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/Observer.dir/build.make bin/CMakeFiles/Observer.dir/Observer.cpp.s
+.PHONY : Observer.cpp.s
+
+PrintArgs.o: PrintArgs.cpp.o
+.PHONY : PrintArgs.o
+
+# target to build an object file
+PrintArgs.cpp.o:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/PrintArgs.dir/build.make bin/CMakeFiles/PrintArgs.dir/PrintArgs.cpp.o
+.PHONY : PrintArgs.cpp.o
+
+PrintArgs.i: PrintArgs.cpp.i
+.PHONY : PrintArgs.i
+
+# target to preprocess a source file
+PrintArgs.cpp.i:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/PrintArgs.dir/build.make bin/CMakeFiles/PrintArgs.dir/PrintArgs.cpp.i
+.PHONY : PrintArgs.cpp.i
+
+PrintArgs.s: PrintArgs.cpp.s
+.PHONY : PrintArgs.s
+
+# target to generate assembly for a file
+PrintArgs.cpp.s:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/PrintArgs.dir/build.make bin/CMakeFiles/PrintArgs.dir/PrintArgs.cpp.s
+.PHONY : PrintArgs.cpp.s
 
 cpp11FeaturesTest.o: cpp11FeaturesTest.cpp.o
 .PHONY : cpp11FeaturesTest.o
@@ -448,6 +538,30 @@ lambda_test.s: lambda_test.cpp.s
 lambda_test.cpp.s:
 	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/lambda_test.dir/build.make bin/CMakeFiles/lambda_test.dir/lambda_test.cpp.s
 .PHONY : lambda_test.cpp.s
+
+mapSort.o: mapSort.cpp.o
+.PHONY : mapSort.o
+
+# target to build an object file
+mapSort.cpp.o:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/mapSort.dir/build.make bin/CMakeFiles/mapSort.dir/mapSort.cpp.o
+.PHONY : mapSort.cpp.o
+
+mapSort.i: mapSort.cpp.i
+.PHONY : mapSort.i
+
+# target to preprocess a source file
+mapSort.cpp.i:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/mapSort.dir/build.make bin/CMakeFiles/mapSort.dir/mapSort.cpp.i
+.PHONY : mapSort.cpp.i
+
+mapSort.s: mapSort.cpp.s
+.PHONY : mapSort.s
+
+# target to generate assembly for a file
+mapSort.cpp.s:
+	cd /home/exbot/Documents/myC++11_Test/bulid && $(MAKE) -f bin/CMakeFiles/mapSort.dir/build.make bin/CMakeFiles/mapSort.dir/mapSort.cpp.s
+.PHONY : mapSort.cpp.s
 
 object_construction.o: object_construction.cpp.o
 .PHONY : object_construction.o
@@ -672,12 +786,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... Features"
+	@echo "... Observer"
+	@echo "... PrintArgs"
 	@echo "... decltype"
 	@echo "... delete_default"
 	@echo "... edit_cache"
 	@echo "... enum_union"
 	@echo "... init_list"
 	@echo "... lambda_test"
+	@echo "... mapSort"
 	@echo "... object_construction"
 	@echo "... overrides_final"
 	@echo "... rebuild_cache"
@@ -688,6 +805,12 @@ help:
 	@echo "... unordered_set_map"
 	@echo "... using_and_so_on"
 	@echo "... variadic_templates"
+	@echo "... Observer.o"
+	@echo "... Observer.i"
+	@echo "... Observer.s"
+	@echo "... PrintArgs.o"
+	@echo "... PrintArgs.i"
+	@echo "... PrintArgs.s"
 	@echo "... cpp11FeaturesTest.o"
 	@echo "... cpp11FeaturesTest.i"
 	@echo "... cpp11FeaturesTest.s"
@@ -706,6 +829,9 @@ help:
 	@echo "... lambda_test.o"
 	@echo "... lambda_test.i"
 	@echo "... lambda_test.s"
+	@echo "... mapSort.o"
+	@echo "... mapSort.i"
+	@echo "... mapSort.s"
 	@echo "... object_construction.o"
 	@echo "... object_construction.i"
 	@echo "... object_construction.s"

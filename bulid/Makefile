@@ -109,6 +109,32 @@ Features/fast:
 .PHONY : Features/fast
 
 #=============================================================================
+# Target rules for targets named Observer
+
+# Build rule for target.
+Observer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Observer
+.PHONY : Observer
+
+# fast build rule for target.
+Observer/fast:
+	$(MAKE) -f bin/CMakeFiles/Observer.dir/build.make bin/CMakeFiles/Observer.dir/build
+.PHONY : Observer/fast
+
+#=============================================================================
+# Target rules for targets named PrintArgs
+
+# Build rule for target.
+PrintArgs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PrintArgs
+.PHONY : PrintArgs
+
+# fast build rule for target.
+PrintArgs/fast:
+	$(MAKE) -f bin/CMakeFiles/PrintArgs.dir/build.make bin/CMakeFiles/PrintArgs.dir/build
+.PHONY : PrintArgs/fast
+
+#=============================================================================
 # Target rules for targets named decltype
 
 # Build rule for target.
@@ -172,6 +198,19 @@ lambda_test: cmake_check_build_system
 lambda_test/fast:
 	$(MAKE) -f bin/CMakeFiles/lambda_test.dir/build.make bin/CMakeFiles/lambda_test.dir/build
 .PHONY : lambda_test/fast
+
+#=============================================================================
+# Target rules for targets named mapSort
+
+# Build rule for target.
+mapSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mapSort
+.PHONY : mapSort
+
+# fast build rule for target.
+mapSort/fast:
+	$(MAKE) -f bin/CMakeFiles/mapSort.dir/build.make bin/CMakeFiles/mapSort.dir/build
+.PHONY : mapSort/fast
 
 #=============================================================================
 # Target rules for targets named object_construction
@@ -299,11 +338,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Features"
+	@echo "... Observer"
+	@echo "... PrintArgs"
 	@echo "... decltype"
 	@echo "... delete_default"
 	@echo "... enum_union"
 	@echo "... init_list"
 	@echo "... lambda_test"
+	@echo "... mapSort"
 	@echo "... object_construction"
 	@echo "... overrides_final"
 	@echo "... regex_test"

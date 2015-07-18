@@ -54,11 +54,14 @@ CMAKE_BINARY_DIR = /home/exbot/Documents/myC++11_Test/bulid
 
 # Convenience name for "all" pass in the directory.
 bin/all: bin/CMakeFiles/Features.dir/all
+bin/all: bin/CMakeFiles/Observer.dir/all
+bin/all: bin/CMakeFiles/PrintArgs.dir/all
 bin/all: bin/CMakeFiles/decltype.dir/all
 bin/all: bin/CMakeFiles/delete_default.dir/all
 bin/all: bin/CMakeFiles/enum_union.dir/all
 bin/all: bin/CMakeFiles/init_list.dir/all
 bin/all: bin/CMakeFiles/lambda_test.dir/all
+bin/all: bin/CMakeFiles/mapSort.dir/all
 bin/all: bin/CMakeFiles/object_construction.dir/all
 bin/all: bin/CMakeFiles/overrides_final.dir/all
 bin/all: bin/CMakeFiles/regex_test.dir/all
@@ -72,11 +75,14 @@ bin/all: bin/CMakeFiles/variadic_templates.dir/all
 
 # Convenience name for "clean" pass in the directory.
 bin/clean: bin/CMakeFiles/Features.dir/clean
+bin/clean: bin/CMakeFiles/Observer.dir/clean
+bin/clean: bin/CMakeFiles/PrintArgs.dir/clean
 bin/clean: bin/CMakeFiles/decltype.dir/clean
 bin/clean: bin/CMakeFiles/delete_default.dir/clean
 bin/clean: bin/CMakeFiles/enum_union.dir/clean
 bin/clean: bin/CMakeFiles/init_list.dir/clean
 bin/clean: bin/CMakeFiles/lambda_test.dir/clean
+bin/clean: bin/CMakeFiles/mapSort.dir/clean
 bin/clean: bin/CMakeFiles/object_construction.dir/clean
 bin/clean: bin/CMakeFiles/overrides_final.dir/clean
 bin/clean: bin/CMakeFiles/regex_test.dir/clean
@@ -128,13 +134,83 @@ clean: bin/CMakeFiles/Features.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target bin/CMakeFiles/Observer.dir
+
+# All Build rule for target.
+bin/CMakeFiles/Observer.dir/all:
+	$(MAKE) -f bin/CMakeFiles/Observer.dir/build.make bin/CMakeFiles/Observer.dir/depend
+	$(MAKE) -f bin/CMakeFiles/Observer.dir/build.make bin/CMakeFiles/Observer.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  2
+	@echo "Built target Observer"
+.PHONY : bin/CMakeFiles/Observer.dir/all
+
+# Include target in all.
+all: bin/CMakeFiles/Observer.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+bin/CMakeFiles/Observer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/Observer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles 0
+.PHONY : bin/CMakeFiles/Observer.dir/rule
+
+# Convenience name for target.
+Observer: bin/CMakeFiles/Observer.dir/rule
+.PHONY : Observer
+
+# clean rule for target.
+bin/CMakeFiles/Observer.dir/clean:
+	$(MAKE) -f bin/CMakeFiles/Observer.dir/build.make bin/CMakeFiles/Observer.dir/clean
+.PHONY : bin/CMakeFiles/Observer.dir/clean
+
+# clean rule for target.
+clean: bin/CMakeFiles/Observer.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bin/CMakeFiles/PrintArgs.dir
+
+# All Build rule for target.
+bin/CMakeFiles/PrintArgs.dir/all:
+	$(MAKE) -f bin/CMakeFiles/PrintArgs.dir/build.make bin/CMakeFiles/PrintArgs.dir/depend
+	$(MAKE) -f bin/CMakeFiles/PrintArgs.dir/build.make bin/CMakeFiles/PrintArgs.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  3
+	@echo "Built target PrintArgs"
+.PHONY : bin/CMakeFiles/PrintArgs.dir/all
+
+# Include target in all.
+all: bin/CMakeFiles/PrintArgs.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+bin/CMakeFiles/PrintArgs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/PrintArgs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles 0
+.PHONY : bin/CMakeFiles/PrintArgs.dir/rule
+
+# Convenience name for target.
+PrintArgs: bin/CMakeFiles/PrintArgs.dir/rule
+.PHONY : PrintArgs
+
+# clean rule for target.
+bin/CMakeFiles/PrintArgs.dir/clean:
+	$(MAKE) -f bin/CMakeFiles/PrintArgs.dir/build.make bin/CMakeFiles/PrintArgs.dir/clean
+.PHONY : bin/CMakeFiles/PrintArgs.dir/clean
+
+# clean rule for target.
+clean: bin/CMakeFiles/PrintArgs.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target bin/CMakeFiles/decltype.dir
 
 # All Build rule for target.
 bin/CMakeFiles/decltype.dir/all:
 	$(MAKE) -f bin/CMakeFiles/decltype.dir/build.make bin/CMakeFiles/decltype.dir/depend
 	$(MAKE) -f bin/CMakeFiles/decltype.dir/build.make bin/CMakeFiles/decltype.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  4
 	@echo "Built target decltype"
 .PHONY : bin/CMakeFiles/decltype.dir/all
 
@@ -169,7 +245,7 @@ clean: bin/CMakeFiles/decltype.dir/clean
 bin/CMakeFiles/delete_default.dir/all:
 	$(MAKE) -f bin/CMakeFiles/delete_default.dir/build.make bin/CMakeFiles/delete_default.dir/depend
 	$(MAKE) -f bin/CMakeFiles/delete_default.dir/build.make bin/CMakeFiles/delete_default.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  5
 	@echo "Built target delete_default"
 .PHONY : bin/CMakeFiles/delete_default.dir/all
 
@@ -204,7 +280,7 @@ clean: bin/CMakeFiles/delete_default.dir/clean
 bin/CMakeFiles/enum_union.dir/all:
 	$(MAKE) -f bin/CMakeFiles/enum_union.dir/build.make bin/CMakeFiles/enum_union.dir/depend
 	$(MAKE) -f bin/CMakeFiles/enum_union.dir/build.make bin/CMakeFiles/enum_union.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  6
 	@echo "Built target enum_union"
 .PHONY : bin/CMakeFiles/enum_union.dir/all
 
@@ -239,7 +315,7 @@ clean: bin/CMakeFiles/enum_union.dir/clean
 bin/CMakeFiles/init_list.dir/all:
 	$(MAKE) -f bin/CMakeFiles/init_list.dir/build.make bin/CMakeFiles/init_list.dir/depend
 	$(MAKE) -f bin/CMakeFiles/init_list.dir/build.make bin/CMakeFiles/init_list.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  7
 	@echo "Built target init_list"
 .PHONY : bin/CMakeFiles/init_list.dir/all
 
@@ -274,7 +350,7 @@ clean: bin/CMakeFiles/init_list.dir/clean
 bin/CMakeFiles/lambda_test.dir/all:
 	$(MAKE) -f bin/CMakeFiles/lambda_test.dir/build.make bin/CMakeFiles/lambda_test.dir/depend
 	$(MAKE) -f bin/CMakeFiles/lambda_test.dir/build.make bin/CMakeFiles/lambda_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  8
 	@echo "Built target lambda_test"
 .PHONY : bin/CMakeFiles/lambda_test.dir/all
 
@@ -303,13 +379,48 @@ clean: bin/CMakeFiles/lambda_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target bin/CMakeFiles/mapSort.dir
+
+# All Build rule for target.
+bin/CMakeFiles/mapSort.dir/all:
+	$(MAKE) -f bin/CMakeFiles/mapSort.dir/build.make bin/CMakeFiles/mapSort.dir/depend
+	$(MAKE) -f bin/CMakeFiles/mapSort.dir/build.make bin/CMakeFiles/mapSort.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  9
+	@echo "Built target mapSort"
+.PHONY : bin/CMakeFiles/mapSort.dir/all
+
+# Include target in all.
+all: bin/CMakeFiles/mapSort.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+bin/CMakeFiles/mapSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/mapSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles 0
+.PHONY : bin/CMakeFiles/mapSort.dir/rule
+
+# Convenience name for target.
+mapSort: bin/CMakeFiles/mapSort.dir/rule
+.PHONY : mapSort
+
+# clean rule for target.
+bin/CMakeFiles/mapSort.dir/clean:
+	$(MAKE) -f bin/CMakeFiles/mapSort.dir/build.make bin/CMakeFiles/mapSort.dir/clean
+.PHONY : bin/CMakeFiles/mapSort.dir/clean
+
+# clean rule for target.
+clean: bin/CMakeFiles/mapSort.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target bin/CMakeFiles/object_construction.dir
 
 # All Build rule for target.
 bin/CMakeFiles/object_construction.dir/all:
 	$(MAKE) -f bin/CMakeFiles/object_construction.dir/build.make bin/CMakeFiles/object_construction.dir/depend
 	$(MAKE) -f bin/CMakeFiles/object_construction.dir/build.make bin/CMakeFiles/object_construction.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  10
 	@echo "Built target object_construction"
 .PHONY : bin/CMakeFiles/object_construction.dir/all
 
@@ -344,7 +455,7 @@ clean: bin/CMakeFiles/object_construction.dir/clean
 bin/CMakeFiles/overrides_final.dir/all:
 	$(MAKE) -f bin/CMakeFiles/overrides_final.dir/build.make bin/CMakeFiles/overrides_final.dir/depend
 	$(MAKE) -f bin/CMakeFiles/overrides_final.dir/build.make bin/CMakeFiles/overrides_final.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  11
 	@echo "Built target overrides_final"
 .PHONY : bin/CMakeFiles/overrides_final.dir/all
 
@@ -379,7 +490,7 @@ clean: bin/CMakeFiles/overrides_final.dir/clean
 bin/CMakeFiles/regex_test.dir/all:
 	$(MAKE) -f bin/CMakeFiles/regex_test.dir/build.make bin/CMakeFiles/regex_test.dir/depend
 	$(MAKE) -f bin/CMakeFiles/regex_test.dir/build.make bin/CMakeFiles/regex_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  12
 	@echo "Built target regex_test"
 .PHONY : bin/CMakeFiles/regex_test.dir/all
 
@@ -414,7 +525,7 @@ clean: bin/CMakeFiles/regex_test.dir/clean
 bin/CMakeFiles/right_value_ref.dir/all:
 	$(MAKE) -f bin/CMakeFiles/right_value_ref.dir/build.make bin/CMakeFiles/right_value_ref.dir/depend
 	$(MAKE) -f bin/CMakeFiles/right_value_ref.dir/build.make bin/CMakeFiles/right_value_ref.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  13
 	@echo "Built target right_value_ref"
 .PHONY : bin/CMakeFiles/right_value_ref.dir/all
 
@@ -449,7 +560,7 @@ clean: bin/CMakeFiles/right_value_ref.dir/clean
 bin/CMakeFiles/thread.dir/all:
 	$(MAKE) -f bin/CMakeFiles/thread.dir/build.make bin/CMakeFiles/thread.dir/depend
 	$(MAKE) -f bin/CMakeFiles/thread.dir/build.make bin/CMakeFiles/thread.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  14
 	@echo "Built target thread"
 .PHONY : bin/CMakeFiles/thread.dir/all
 
@@ -484,7 +595,7 @@ clean: bin/CMakeFiles/thread.dir/clean
 bin/CMakeFiles/tuple_test.dir/all:
 	$(MAKE) -f bin/CMakeFiles/tuple_test.dir/build.make bin/CMakeFiles/tuple_test.dir/depend
 	$(MAKE) -f bin/CMakeFiles/tuple_test.dir/build.make bin/CMakeFiles/tuple_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  12
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  15
 	@echo "Built target tuple_test"
 .PHONY : bin/CMakeFiles/tuple_test.dir/all
 
@@ -519,7 +630,7 @@ clean: bin/CMakeFiles/tuple_test.dir/clean
 bin/CMakeFiles/unordered_set_map.dir/all:
 	$(MAKE) -f bin/CMakeFiles/unordered_set_map.dir/build.make bin/CMakeFiles/unordered_set_map.dir/depend
 	$(MAKE) -f bin/CMakeFiles/unordered_set_map.dir/build.make bin/CMakeFiles/unordered_set_map.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  13
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  16
 	@echo "Built target unordered_set_map"
 .PHONY : bin/CMakeFiles/unordered_set_map.dir/all
 
@@ -554,7 +665,7 @@ clean: bin/CMakeFiles/unordered_set_map.dir/clean
 bin/CMakeFiles/using_and_so_on.dir/all:
 	$(MAKE) -f bin/CMakeFiles/using_and_so_on.dir/build.make bin/CMakeFiles/using_and_so_on.dir/depend
 	$(MAKE) -f bin/CMakeFiles/using_and_so_on.dir/build.make bin/CMakeFiles/using_and_so_on.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  17
 	@echo "Built target using_and_so_on"
 .PHONY : bin/CMakeFiles/using_and_so_on.dir/all
 
@@ -589,7 +700,7 @@ clean: bin/CMakeFiles/using_and_so_on.dir/clean
 bin/CMakeFiles/variadic_templates.dir/all:
 	$(MAKE) -f bin/CMakeFiles/variadic_templates.dir/build.make bin/CMakeFiles/variadic_templates.dir/depend
 	$(MAKE) -f bin/CMakeFiles/variadic_templates.dir/build.make bin/CMakeFiles/variadic_templates.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  15
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/exbot/Documents/myC++11_Test/bulid/CMakeFiles  18
 	@echo "Built target variadic_templates"
 .PHONY : bin/CMakeFiles/variadic_templates.dir/all
 
